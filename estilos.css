@@ -1,0 +1,90 @@
+*{
+	font-family: Helvetica;
+	background: grey;
+	color:blue;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	text-align: center;
+	margin: 0 auto 0;
+}
+section{
+	margin: 0 auto 0;
+	padding: 10px;
+	width: 600px;
+}
+button{
+	
+	border:0;
+	height: 30px;
+	font-size: 15px;
+	margin: 3px;
+	width: 30px;
+}
+button:hover{
+	color:blue;
+}
+#calculadora{
+	padding: 10px;
+	width: 50%;
+}
+.clear{
+	background: green !important;
+}
+#reporte{
+	display: none;
+	border:1px solid black;
+	border-style: dotted;
+	color: blue;
+	font-size: 12px;
+	left: 10px;
+	padding: 5px;
+	position: fixed;
+	top: 40px;
+	text-align: center;
+}
+#resultado{
+	padding: 2px;
+	width: 90%;
+}
+#grafica, #funcion, #resultado, #botones, .numeros, .variables, #reporte, #calculadora{
+	margin:0 auto 0;
+}
+
+#funcion{
+	border:1px solid skyblue;
+	border-radius: 5px;
+	margin-bottom: 3px;
+	width: 90%;
+}
+#in, #res{
+	background: pink;
+	border:1px solid black ;
+	border:0;
+	border-radius: 5px;
+	display: block;
+	font-size:30px;
+	height: 30px;
+	margin:0 auto 0;
+	margin-bottom: 0;
+	padding: 5px;
+	width:95%;
+}
+#res{
+	font-size: 55px;
+}
+#botones{
+	width: 90%;
+	text-align: center;
+}
+.numeros, .variables{
+	display: inline-block;
+	vertical-align: top;
+}
+.numeros>button{
+	background: green;
+}
+.variables>button{
+	background: red;
+}
